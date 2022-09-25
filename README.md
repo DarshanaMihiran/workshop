@@ -15,8 +15,8 @@
 - Manager
 - Repository
 - DataAccess
-		dotnet ef migrations add InitialCreate --startup-project ../UniversityAPI/
-		dotnet ef database update --startup-project ../UniversityAPI/
+-- dotnet ef migrations add InitialCreate --startup-project ../UniversityAPI/
+-- dotnet ef database update --startup-project ../UniversityAPI/
 
 ## Nuget Packages
 - EFCore 5.0.17
