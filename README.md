@@ -1,5 +1,8 @@
 # workshop
 
+## Introduction
+This project have been done for undergraduates of University of Ruhuna for learning purposes. 
+
 ## Technologies
 - .net core
 - ef core
@@ -15,8 +18,10 @@
 - Manager
 - Repository
 - DataAccess
--- dotnet ef migrations add InitialCreate --startup-project ../UniversityAPI/
--- dotnet ef database update --startup-project ../UniversityAPI/
+
+### migration commands
+- dotnet ef migrations add InitialCreate --startup-project ../UniversityAPI/
+- dotnet ef database update --startup-project ../UniversityAPI/
 
 ## Nuget Packages
 - EFCore 5.0.17
